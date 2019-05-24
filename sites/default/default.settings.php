@@ -704,10 +704,11 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * like to allow.
  *
  * For example:
- * @code
- * $settings['trusted_host_patterns'] = [
- *   '^www\.example\.com$',
- * ];
+ * @code*/
+ $settings['trusted_host_patterns'] = [
+    '^example\.com$',
+    '^www\.example\.com$',
+ ];/**
  * @endcode
  * will allow the site to only run from www.example.com.
  *
