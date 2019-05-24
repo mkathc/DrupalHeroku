@@ -1,0 +1,8 @@
+{
+  "name": "Drupal by Tineo ;)",
+  "description": "Deploy your favorite CMS on Heroku using our Drupal buildpack.",
+  "repository": "https://github.com/tineo/drupal8heroku",
+  "logo": "https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/logo-d8.svg",
+  "keywords": ["drupal", "heroku", "php", "mysql", "apache", "apache2", "nginx"],
+  "addons": ["heroku-postgresql:hobby-dev"]
+}
